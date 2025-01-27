@@ -299,6 +299,13 @@
   "@setupTitle": {},
   "@share": {},
   "@shoppingList": {},
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
   "@shoppingListDelete": {},
   "@shoppingListDeleteConfirmation": {
     "placeholders": {
@@ -340,6 +347,12 @@
   "@totalTime": {},
   "@tutorialItemDescription1": {},
   "@tutorialItemDescription2": {},
+  "@tutorialRecipeDescription": {},
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {}
+    }
+  },
   "@uncategorized": {},
   "@underConstruction": {},
   "@undo": {},
@@ -587,6 +600,7 @@
   "setupTitle": "Ahoj! Pripravený nakupovať?",
   "share": "Zdieľať",
   "shoppingList": "Nákupný zoznam",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{Nákupný zoznam je prázdny.} =1{Nákupný zoznam obsabuje 1 položku.} other{Nákupný zoznam obsahuje {entriesCount} položiek.}}",
   "shoppingListDelete": "Zmazať nákupný zoznam",
   "shoppingListDeleteConfirmation": "Ste si istý, že chcete zmazať {shoppingList}?",
   "shoppingListEdit": "Upraviť nákupný zoznam",
@@ -616,6 +630,8 @@
   "totalTime": "Celkový čas",
   "tutorialItemDescription1": "Pri hľadaní produktov môžete pridať množstvá na začiatok textového poľa a následne budú pridané ako popis.",
   "tutorialItemDescription2": "Alebo, ak množstvá nestačia, použite čiarku na oddelenie názvu produktu od popisu.",
+  "tutorialRecipeDescription": "Namiesto receptov môžete použiť Markdown. Základné funkcie sú názvy označené symbolom #, číselné zoznamy pre postup a referencia na ingrediencie použitím symbolu @ a následne použitím mena ingrediencie.",
+  "tutorialRecipeMore": "Pre viac informácií si pozrite [documentation]({url}).",
   "uncategorized": "Bez kategórie",
   "underConstruction": "Vo vývoji",
   "undo": "Späť",

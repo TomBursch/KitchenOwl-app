@@ -37,12 +37,15 @@
   },
   "@address": {},
   "@admin": {},
+  "@analysingWebsite": {},
   "@appDescription": {},
   "@appTitle": {
     "description": "The title of the app"
   },
   "@back": {},
   "@balances": {},
+  "@budget": {},
+  "@budgetSet": {},
   "@camera": {},
   "@cancel": {},
   "@categories": {},
@@ -115,6 +118,11 @@
   "@go": {},
   "@grid": {},
   "@helpTranslate": {},
+  "@hi": {
+    "placeholders": {
+      "name": {}
+    }
+  },
   "@household": {},
   "@householdDelete": {},
   "@householdDeleteConfirmation": {
@@ -186,6 +194,7 @@
     }
   },
   "@longPressToReorder": {},
+  "@longerThanExpected": {},
   "@markAsPaid": {},
   "@mealPlanner": {},
   "@member": {},
@@ -273,6 +282,7 @@
   "@recipesSuggested": {},
   "@redo": {},
   "@refresh": {},
+  "@rememberLastShoppingList": {},
   "@remove": {},
   "@rename": {},
   "@reportIssue": {},
@@ -287,6 +297,13 @@
   "@setupTitle": {},
   "@share": {},
   "@shoppingList": {},
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
   "@shoppingListDelete": {},
   "@shoppingListDeleteConfirmation": {
     "placeholders": {
@@ -302,6 +319,7 @@
     }
   },
   "@signup": {},
+  "@skip": {},
   "@smaller": {},
   "@sortingAlgorithmic": {},
   "@sortingAlphabetical": {},
@@ -325,6 +343,14 @@
   "@themeSystem": {},
   "@total": {},
   "@totalTime": {},
+  "@tutorialItemDescription1": {},
+  "@tutorialItemDescription2": {},
+  "@tutorialRecipeDescription": {},
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {}
+    }
+  },
   "@uncategorized": {},
   "@underConstruction": {},
   "@undo": {},
@@ -382,10 +408,13 @@
   "addedBy": "Ajouté par {name}",
   "address": "Adresse",
   "admin": "Administrateur",
+  "analysingWebsite": "Analyse du site web...",
   "appDescription": "KitchenOwl vous aide à organiser votre épicerie.",
   "appTitle": "KitchenOwl",
   "back": "Retour",
   "balances": "Soldes",
+  "budget": "Budget",
+  "budgetSet": "Définir le budget",
   "camera": "Appareil photo",
   "cancel": "Annuler",
   "categories": "Catégories",
@@ -442,6 +471,7 @@
   "go": "Aller",
   "grid": "Grille",
   "helpTranslate": "Aider pour traduire",
+  "hi": "Bonjour {name} !",
   "household": "Ménage",
   "householdDelete": "Supprimer le ménage",
   "householdDeleteConfirmation": "Êtes-vous sûr·e de vouloir supprimer {household} ? Ceci supprimera tous les article, les recettes et les dépenses associé à ce ménage.",
@@ -486,6 +516,7 @@
   "logout": "Se déconnecter",
   "logoutName": "Déconnecter {name}",
   "longPressToReorder": "Appui long pour réorganiser",
+  "longerThanExpected": "La procédure prend plus de temps que prévu",
   "markAsPaid": "Marqué comme payé",
   "mealPlanner": "Planificateur de repas",
   "member": "Membre",
@@ -552,6 +583,7 @@
   "recipesSuggested": "Suggérées",
   "redo": "Recommencer",
   "refresh": "Actualiser",
+  "rememberLastShoppingList": "Se souvenir de la dernière liste de courses utilisée",
   "remove": "Retirer",
   "rename": "Renommer",
   "reportIssue": "Signaler un problème",
@@ -566,6 +598,7 @@
   "setupTitle": "Coucou ! Prêt·e pour faire les courses ?",
   "share": "Partager",
   "shoppingList": "Liste de courses",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{La liste de courses ne contient aucun article.} =1{La liste de courses contient 1 article.} other{La liste de courses contient {entriesCount} articles.}}",
   "shoppingListDelete": "Supprimer la liste de courses",
   "shoppingListDeleteConfirmation": "Êtes-vous sûr·e de vouloir supprimer {shoppingList} ?",
   "shoppingListEdit": "Modifier la liste de courses",
@@ -573,6 +606,7 @@
   "shoppingLists": "Listes de courses",
   "signInWith": "Se connecter avec {provider}",
   "signup": "S'inscrire",
+  "skip": "Passer",
   "smaller": "Plus petite",
   "sortingAlgorithmic": "Algorithmique",
   "sortingAlphabetical": "Alphabétique",
@@ -592,6 +626,10 @@
   "themeSystem": "Système",
   "total": "Total",
   "totalTime": "Temps total",
+  "tutorialItemDescription1": "Lorsque vous recherchez des articles, vous pouvez ajouter une quantité au début de votre requête, et elle sera ajoutée en tant que description.",
+  "tutorialItemDescription2": "Si une quantité seule n'est pas assez descriptive, utilisez une virgule pour séparer le nom et la description de l'article.",
+  "tutorialRecipeDescription": "Dans les recettes, vous pouvez utiliser Markdown. Les fonctions de base sont les en-têtes que vous pouvez spécifier avec des signes dièse, les listes numérotées pour les étapes de la recette et les références aux ingrédients à l'aide d'un signe arobase suivi du nom de l'ingrédient.",
+  "tutorialRecipeMore": "Pour plus d'informations, visitez la [documentation]({url}).",
   "uncategorized": "Non catégorisé",
   "underConstruction": "En cours de construction",
   "undo": "Annuler",
