@@ -39,12 +39,15 @@
   },
   "@address": {},
   "@admin": {},
+  "@analysingWebsite": {},
   "@appDescription": {},
   "@appTitle": {
     "description": "The title of the app"
   },
   "@back": {},
   "@balances": {},
+  "@budget": {},
+  "@budgetSet": {},
   "@camera": {},
   "@cancel": {},
   "@categories": {},
@@ -63,6 +66,7 @@
     }
   },
   "@changeIcon": {},
+  "@clear": {},
   "@colorSelect": {},
   "@confirm": {},
   "@cookingTime": {},
@@ -116,6 +120,11 @@
   "@go": {},
   "@grid": {},
   "@helpTranslate": {},
+  "@hi": {
+    "placeholders": {
+      "name": {}
+    }
+  },
   "@household": {},
   "@householdDelete": {},
   "@householdDeleteConfirmation": {
@@ -383,10 +392,13 @@
   "addedBy": "Hinzugefügt von {name}",
   "address": "Adresse",
   "admin": "Admin",
+  "analysingWebsite": "Analysiere Website...",
   "appDescription": "KitchenOwl hilft dir, deinen Lebensmitteleinkauf zu organisieren.",
   "appTitle": "KitchenOwl",
   "back": "Zurück",
   "balances": "Bilanzen",
+  "budget": "Budget",
+  "budgetSet": "Budget setzen",
   "camera": "Kamera",
   "cancel": "Abbrechen",
   "categories": "Kategorien",
@@ -397,6 +409,7 @@
   "categoryEdit": "Kategorie bearbeiten",
   "categoryExpenseDeleteConfirmation": "Bist du dir sicher, dass du {category} löschen möchtest? Diese Aktion entfernt die Kategorie von allen Ausgaben.",
   "changeIcon": "Symbol ändern",
+  "clear": "Löschen",
   "colorSelect": "Wähle eine Farbe",
   "confirm": "Bestätigen",
   "cookingTime": "Kochzeit",
@@ -442,6 +455,7 @@
   "go": "Los",
   "grid": "Gitter",
   "helpTranslate": "Hilf beim Übersetzen",
+  "hi": "Hoi {name}!",
   "household": "Haushalt",
   "householdDelete": "Haushalt löschen",
   "householdDeleteConfirmation": "Bist du sicher, dass du {household} löschen möchtest? Das entfernt alle Produkte, Kategorien, Rezepte und Ausgaben.",
