@@ -43,6 +43,7 @@ extension UserApi on ApiService {
   }
 
   Future<bool> updateUser({
+    String? image,
     String? name,
     String? password,
     String? email,
@@ -53,6 +54,7 @@ extension UserApi on ApiService {
       if (name != null) 'name': name,
       if (password != null) 'password': password,
       if (email != null) 'email': email,
+      if (image != null) 'photo': image,
     };
 
     final res = await post(baseRoute, jsonEncode(body));
@@ -62,6 +64,7 @@ extension UserApi on ApiService {
 
   Future<bool> updateUserById(
     int userId, {
+    String? image,
     String? name,
     String? password,
     String? email,
@@ -74,6 +77,7 @@ extension UserApi on ApiService {
       if (password != null) 'password': password,
       if (email != null) 'email': email,
       if (admin != null) 'admin': admin,
+      if (image != null) 'photo': image,
     };
 
     final res = await post('$baseRoute/$userId', jsonEncode(body));

@@ -11,6 +11,7 @@ import 'package:kitchenowl/pages/settings_user_email_page.dart';
 import 'package:kitchenowl/pages/settings_user_linked_accounts_page.dart';
 import 'package:kitchenowl/pages/settings_user_password_page.dart';
 import 'package:kitchenowl/pages/settings_user_sessions_page.dart';
+import 'package:kitchenowl/widgets/user_image_selector.dart';
 
 class SettingsUserPage extends StatefulWidget {
   final User? user;
@@ -131,21 +132,12 @@ class _SettingsUserPageState extends State<SettingsUserPage> {
                     BlocBuilder<SettingsUserCubit, SettingsUserState>(
                       bloc: cubit,
                       builder: (context, state) => Center(
-                        child: CircleAvatar(
-                          foregroundImage: state.user?.image?.isEmpty ?? true
-                              ? null
-                              : getImageProvider(
-                                  context,
-                                  state.user!.image!,
-                                ),
-                          radius: 45,
-                          child: nameController.text.isNotEmpty
-                              ? Text(
-                                  nameController.text.substring(0, 1),
-                                  textScaler: MediaQuery.textScalerOf(context)
-                                      .clamp(minScaleFactor: 2),
-                                )
-                              : null,
+                        child: UserImageSelector(
+                          name: nameController.text,
+                          originalImage: state.user?.image,
+                          image: state.image,
+                          tooltip: AppLocalizations.of(context)!.imageSelect,
+                          setImage: cubit.setImage,
                         ),
                       ),
                     ),
